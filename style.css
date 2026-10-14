@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f6e8d4;
+}
+
+header {
+  background-color: #edff4a;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: #ffb347;
+  padding: 10px;
+}
+
+ul.topnav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+}
+
+/* Style links in topnav */
+ul.topnav li a {
+  display: block;
+  color: #f1f1f1;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+@media screen and (max-width:600px) {
+  div.flex-container {
+    flex-direction: column;
+  }
+}
