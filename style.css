@@ -42,6 +42,18 @@ ul.topnav li a:hover {
   color: #ffffff;
 }
 
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #2f6f8f;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
 @media screen and (max-width:600px) {
   div.flex-container {
     flex-direction: column;
