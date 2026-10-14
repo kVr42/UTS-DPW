@@ -5,17 +5,19 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f6e8d4;
+  background-color: #f9f3ea;
+  color: #1f1f1f;
 }
 
 header {
-  background-color: #edff4a;
+  background-color: #2f6f8f;
+  color: #ffffff;
   padding: 10px;
   text-align: center;
 }
 
 nav {
-  background-color: #ffb347;
+  background-color: #f4a261;
   padding: 10px;
 }
 
@@ -24,15 +26,20 @@ ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333333;
+  background-color: #264653;
 }
 
 /* Style links in topnav */
 ul.topnav li a {
   display: block;
-  color: #f1f1f1;
+  color: #f4f1de;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+ul.topnav li a:hover {
+  background-color: #2a9d8f;
+  color: #ffffff;
 }
 
 @media screen and (max-width:600px) {
